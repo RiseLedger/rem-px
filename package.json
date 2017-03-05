@@ -2,7 +2,7 @@
     "name": "rem-px",
     "displayName": "REM PX",
     "description": "Allows easy conversion of rem to px and px to rem",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "riseledger",
     "engines": {
         "vscode": "^1.5.0"
@@ -14,13 +14,7 @@
     "categories": [
         "Other"
     ],
-    "activationEvents": [
-        "onLanguage:css",
-        "onLanguage:scss",
-        "onLanguage:sass",
-        "onLanguage:less",
-        "onLanguage:stylus"
-    ],
+    "activationEvents": ["*"],
     "main": "./extension",
     "contributes": {
         "configuration":{
